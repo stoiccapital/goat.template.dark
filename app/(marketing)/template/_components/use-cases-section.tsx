@@ -29,7 +29,7 @@ export function UseCasesSection() {
           {useCases.map((useCase, index) => (
             <div
               key={index}
-              className="p-6 rounded-xl border border-border bg-background hover:shadow-lg transition-shadow"
+              className="p-6 rounded-xl border border-border bg-muted hover:shadow-lg transition-shadow"
             >
               <h3 className="text-xl font-semibold mb-2">{useCase.title}</h3>
               <p className="text-sm text-muted-foreground">

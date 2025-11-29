@@ -55,7 +55,7 @@ export function PricingSection() {
           {plans.map((plan, index) => (
             <div
               key={index}
-              className="p-8 rounded-2xl border border-border bg-background hover:shadow-lg transition-shadow"
+              className="p-8 rounded-2xl border border-border bg-muted hover:shadow-lg transition-shadow"
             >
               <h3 className="text-xl font-semibold mb-2">{plan.name}</h3>
               <div className="mb-4">

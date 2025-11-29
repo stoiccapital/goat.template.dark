@@ -45,7 +45,7 @@ export function FAQSection() {
             {faqs.map((faq, index) => (
               <div
                 key={index}
-                className="border border-border rounded-xl overflow-hidden"
+                className="border border-border bg-muted rounded-xl overflow-hidden"
               >
                 <button
                   onClick={() => toggle(index)}
